@@ -1,5 +1,11 @@
+body {
+    width: 1280px;
+    height: 806px;
+}
 .container {
     position: absolute;
+    width: 1280px;
+    height: 120px;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -56,4 +62,69 @@ a {
 
 .right-side {
     float: right;
+}
+
+.footer {
+    position: relative;
+    width: 1280px;
+    height: 806px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-slider {
+    width: 1280px;
+    height: 397px;
+}
+p {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    width: 268px;
+    height: 17px;
+    left: 39.53%;
+    right: 39.53%;
+    top: 9.93%;
+    bottom: 87.97%;
+
+    font-family: FreightBigProMedium-Regular;
+    font-size: 14px;
+    line-height: 16.8px;
+    /* identical to box height, or 17px */
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    /*text-align: center;
+    text-align-last: center;*/
+}
+
+.slide-images {
+    /*display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 46px;
+    justify-content: center;
+    align-items: center;*/
+    display: -ms-inline-grid;
+    grid-gap: 46px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    top: 147px;
+    bottom: 80px;
+
+    background: #FFFCF9;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1280px;
+    height: 315px;
 }
