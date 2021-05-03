@@ -1,6 +1,8 @@
 body {
     width: 1280px;
     height: 806px;
+    background: rgba(234, 227, 219, 1);
+
 }
 .container {
     position: absolute;
@@ -65,18 +67,22 @@ a {
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     width: 1280px;
     height: 806px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: auto;
+    /*background: #FFFCF9;*/
 }
 
 .header-slider {
     width: 1280px;
     height: 397px;
+    position: absolute;
+    background: #FFFCF9;
 }
 p {
     display: inline;
@@ -127,4 +133,9 @@ p {
     flex-direction: column;
     width: 1280px;
     height: 315px;
+    position: absolute;
+}
+
+.copyright {
+    position: absolute;
 }
